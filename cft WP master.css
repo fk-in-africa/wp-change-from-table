@@ -1,0 +1,135 @@
+/* まずは不要な左右の余白を無くす*/
+#program-detail .container{
+   width: 100%;
+}
+
+#program-detail .post-wrap{
+  padding-right: 0;
+}
+
+#program-detail .col-md-9{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+/* まずは不要な左右の余白を無くすここまで*/
+
+/* ここからgeneralな内容*/
+#program-detail *{
+    font-family: Lato-Medium, 游ゴシック Medium, YuGothic, 游ゴシック体, ヒラギノ角ゴ Pro W3, メイリオ, sans-serif, ;
+}
+
+#program-detail body{
+	max-width: 100%;
+	display: inline-block;
+}
+
+#program-detail .primary-button{
+  display: inline-block;
+  text-align: center;
+}
+
+#program-detail section{
+	max-width: 100%;
+	width: 100%;
+	padding: 15px 15px;
+	margin: 40px auto;
+	font-family: YuGo-Medium;
+}
+
+#program-detail section .section-title{
+  color: #037Ef3;
+}
+
+#program-detail section .subtext{
+  font-weight: bold;
+  color: #CACCD1;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* generalな内容ここまで*/
+
+/*ここからad-section*/
+#program-detail .ad-section {
+	width: none;
+	text-align: center;
+}
+
+#program-detail .ad-section .ad-img{
+	width: 1200px;
+}
+/*ad-sectionここまで*/
+
+#program-detail .what-section{
+  width: 1170px;
+}
+
+#program-detail .why-section{
+  width: 1170px;
+}
+
+#program-detail .content-section{
+  width: 1170px;
+}
+
+#program-detail .requirement-section{
+  width: 1170px;
+}
+
+#program-detail .content{
+	display: inline-block;
+	width: 320px;
+	margin-right: 30px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#program-detail .img{
+	display:inline-block;
+    padding-right: 30px;
+}
+
+#program-detail .container .what-img{
+    height: 220px;
+    width: auto;
+}
+
+#program-detail .container .why-img{
+    height: 220px;
+    width: auto;
+}
+
+#program-detail .content-section .content-title{
+  color: #037Ef3;
+  font-size: 18px;
+}
+
+#program-detail .requirement-section .criteria{
+  color: #037Ef3;
+}
+
+#program-detail .message-section{
+  text-align: center;
+  background-color: #F3F4F7;
+}
+
+#program-detail .message-section .message-title {
+  color: #037Ef3;
+}
+
+@media all and (max-width: 1000px) {
+  #program-detail .content-section {
+    text-align: center;
+    width: 100%
+    margin: 0 0;
+    padding: 0 0;
+  }
+  #program-detail .content {
+    margin-right: 0;
+  }
+  #program-detail .ad-section{
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
